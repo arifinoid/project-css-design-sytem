@@ -1,0 +1,130 @@
+.jumbotron h1,
+.jumbotron span {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+}
+.jumbotron {
+  min-height: 100vh;
+  background-image: url(/images/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron span {
+  display: block;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+.logo img {
+  margin-top: -20px;
+  margin-left: 20px;
+  width: 70px;
+  height: 80px;
+}
+
+.navigation-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 999;
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+.navigation ul {
+  position: sticky;
+  top: 0;
+}
+.navigation-link li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.navigation-link li a:link,
+.navigation-link li a:active,
+.navigation-link li a:visited {
+  transition: 0.25s;
+  color: #333333;
+}
+
+.navigation-link li a:hover {
+  color: rgba(7, 143, 41, 0.596);
+}
+
+.container-page2 {
+  position: relative;
+  margin-top: 20px;
+}
+
+.page2 {
+  background-image: url(/images/background2.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  background-position: -70px;
+  background-position-x: center;
+  background-attachment: scroll;
+}
+
+.img-thumbnail {
+  border: none;
+}
+
+.container-download a img {
+  height: 30px;
+  margin-top: 40px;
+  margin-right: 15px;
+}
+
+.aplikasi {
+  margin-top: 100px;
+}
+
+.container-social img {
+  margin: 20px 10px;
+  height: 35px;
+}
+
+hr {
+  width: 50px;
+}
+
+.container-tentang-kami {
+  padding-top: 150px;
+  height: 100vh;
+}
+
+.container-faq {
+  padding-top: 120px;
+  height: 100vh;
+}
+
+.container-faq-form button {
+  margin-top: 15px;
+}
+
+.footer {
+  background-color: rgb(56, 228, 107);
+  height: 30px;
+}
+
+#map {
+  height: 550px;
+}
